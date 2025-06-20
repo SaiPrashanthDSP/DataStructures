@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class MergeSort {
 
     public static void main(String []args) {
-        int[] arr = new int[]{1,3,4,2};
+        int[] arr = new int[]{1,3,4,2,0,2,4,5};
 
 
-     mergeSort(arr,0,3);
+     mergeSort(arr,0,7);
      for (int i = 0; i < arr.length;i++) {
          System.out.println(arr[i]);
      }
