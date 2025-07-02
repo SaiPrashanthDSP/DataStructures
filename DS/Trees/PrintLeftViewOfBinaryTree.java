@@ -8,7 +8,7 @@ public class PrintLeftViewOfBinaryTree {
         } else {
             System.out.println(n.root);
             printLeftView(n.left);
-            printLeftView(n.right);
+            // printLeftView(n.right);
 
         };
     }
@@ -22,6 +22,6 @@ public class PrintLeftViewOfBinaryTree {
         n.right.right = new Node(30);
         n.right.right.left = new Node(70);
         n.right.right.right = new Node(9);
-        printLeftView(n.left);
+        printLeftView(n);
     }
 }
