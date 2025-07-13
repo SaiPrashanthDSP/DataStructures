@@ -21,7 +21,7 @@ public class AdjacencyListRepresentation {
         addVertex(1,4,adj);
         addVertex(2,5,adj);
 
-       addVertex(4,5,adj);
+      addVertex(4,5,adj);
         return  adj;
     }
     public static void main(String []args) {
